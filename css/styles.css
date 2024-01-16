@@ -57,9 +57,10 @@ body {
 .text {
   font-size: 18px;
   text-indent: 18px;
+  line-height: 28px;
 }
 
-p.link {
+.link {
   text-align: end;
   margin-top: 25px;
 }
@@ -78,7 +79,6 @@ p.link > a {
 .box-text {
   flex: 1 1 55%;
   padding: 24px;
-  line-height: 28px;
 }
 
 .box-image {
@@ -194,21 +194,19 @@ p.link > a {
   padding: 25px;
 }
 
+.feature-card p {
+  text-indent: 0px;
+}
+
+.feature-card .link {
+  margin-top: auto;
+}
+
 .feature-card img {
   height: 155px;
   width: 100%;
   object-fit: cover;
   margin-bottom: 24px;
-}
-
-.feature-card-title {
-  font-weight: 700;
-  font-size: 32px;
-  margin-bottom: 24px;
-}
-
-.feature-card-text {
-  margin-bottom: 5px;
 }
 
 .feature-card-link {
