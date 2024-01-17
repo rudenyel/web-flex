@@ -1,0 +1,34 @@
+@import url("reset.css");
+
+header {
+  background: blue;
+  height: 100px;
+}
+
+section {
+  margin: 60px;
+  width: 600px;
+  border: 2px solid red;
+  padding: 5px;
+  background: yellow;
+
+  display: flex;
+  /* flex-direction: default row (row-reverse, column, column-reverse*/
+  flex-direction: row;
+  /* flex-direction: default nowrap */
+  flex-wrap: wrap;
+  /* flex-flow: row nowrap; */
+
+  justify-content: center;
+  /* height: 400px;
+  align-items: stretch;  */
+
+  /* max-width: 600px;
+  margin: 60px auto; */
+}
+
+section > div {
+  padding: 10px;
+  background: lightgray;
+  border: 2px solid gray;
+}

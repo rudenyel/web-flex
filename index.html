@@ -10,9 +10,9 @@
 
 <body>
 
-  <header class="header">
+  <header>
     <div class="container">
-      <a class="header-logo" href="#"><img src="images/logo.svg" alt="FJFI logo" width="226" height="70" /></a>
+      <a href="#"><img src="images/logo.svg" alt="FJFI logo" width="226" height="70" /></a>
       <ul class="header-list">
         <li><a href="#about">About</a></li>
         <li><a href="#history">History</a></li>
@@ -25,19 +25,19 @@
 
   <main>
 
-    <section class="tagline">
+    <section>
       <div class="container">
-        <h1>Knowledge has a begining but no end</h1>
+        <h1>Knowledge<br>has a begining<br>but no end</h1>
       </div>
     </section>
 
-    <section class="about" id="about">
+    <section id="about">
       <div class="container">
         <h1 class="title">About</h1>
         <div class="box">
           <div class="box-text">
             <h2 class="subtitle">The Faculty of Nuclear Sciences<br>and Physical Engineering<br>of the Czech
-              Technical University in Prague</h2>
+              Technical University<br>in Prague</h2>
             <p class="text">
               The Faculty of Nuclear Sciences and Physical Engineering of the Czech Technical University in Prague is
               one of the leading scientific and educational institutions in the Czech Republic. Its unique equipment and
@@ -61,10 +61,13 @@
       </div>
     </section>
 
-    <section class="history" id="history">
+    <section id="history">
       <div class="container">
         <h1 class="title">History</h1>
         <div class="box">
+          <div class="box-image">
+            <img src="images/history.jpg" alt="History image" width="555" height="375" />
+          </div>
           <div class="box-text">
             <p class="text">
               The Faculty of Technical and Nuclear Physics was founded as a part of Charles University in 1955 to
@@ -78,16 +81,13 @@
               teaching and has always been focused on demanding fields of science and has initiated and fostered many
               more.
             </p>
-            <p class="link"><a target="_blank" href="https://www.fjfi.cvut.cz">Read more ></a></p>
-          </div>
-          <div class="box-image">
-            <img src="images/history.jpg" alt="History image" width="555" height="375" />
+            <p class="link"><a class="link" target="_blank" href="https://www.fjfi.cvut.cz">Read more ></a></p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="study" id="study">
+    <section id="study">
       <div class="container">
         <h1 class="title">Study</h1>
         <div class="box">
@@ -114,12 +114,12 @@
       </div>
     </section>
 
-    <section class="feature" id="feature">
+    <section id="feature">
       <div class="container">
         <h1 class="title">Feature</h1>
-        <div class="feature-box">
-          <div class="feature-card">
-            <img src="images/feature1.jpg" alt="Feature image" width="300" height="155" />
+        <div class="cards">
+          <div class="card">
+            <img src="images/feature1.jpg" alt="Ion Beams" width="300" height="155" />
             <h2 class="subtitle">Applications<br>of Ion Beams</h3>
               <p class="text">
                 The Laboratory of Ion Beams of the Department of Physical Electronics (KFE) is concerned with the
@@ -128,8 +128,8 @@
               </p>
               <p class="link"><a class="link" target="_blank" href="https://www.fjfi.cvut.cz">Read more ></a></p>
           </div>
-          <div class="feature-card">
-            <img src="images/feature2.jpg" alt="Feature image" width="300" height="155" />
+          <div class="card">
+            <img src="images/feature2.jpg" alt="Nuclear Fuel Cycle" width="300" height="155" />
             <h2 class="subtitle">Nuclear<br>Fuel Cycle</h3>
               <p class="text">
                 The nuclear experts at the Faculty devote their time to optimization of the middle part of the fuel
@@ -139,11 +139,11 @@
               </p>
               <p class="link"><a class="link" target="_blank" href="https://www.fjfi.cvut.cz">Read more ></a></p>
           </div>
-          <div class="feature-card">
-            <img src="images/feature3.jpg" alt="Feature image" width="300" height="155" />
-            <h2 class="subtitle">Physics and Technology of Thermonuclear Fusion</h3>
+          <div class="card">
+            <img src="images/feature3.jpg" alt="Thermonuclear Fusion" width="300" height="155" />
+            <h2 class="subtitle">Thermonuclear<br>Fusion</h3>
               <p class="text">
-                The team participates in research on the Faculty’s GOLEM tokamak, COMPASS tokamak and the pan-European
+                The team participates in research on the Faculty's GOLEM tokamak, COMPASS tokamak and the pan-European
                 JET tokamak. In addition to conducting classes, the group studies application of high-temperature
                 superconductors in tokamak operation, investigates the retention time of radiofrequency plasma excited
                 by an electromagnetic wave in magnetic field, and maps poloidal asymmetry of plasma flow measured by the
@@ -183,5 +183,4 @@
   </footer>
 
 </body>
-
 </html>
