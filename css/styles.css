@@ -111,13 +111,11 @@ header > .container {
 
 .header-list {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   gap: 20px;
 }
 
 .header-list a {
-  /* display: block; */
   border-radius: 4px;
   background-color: #212121;
   padding: 10px 10px 10px 10px;
@@ -211,11 +209,6 @@ footer {
   display: flex;
   justify-content: center;
   gap: 15px;
-}
-
-.footer-list a {
-  display: block;
-  line-height: 10px;
 }
 
 .footer-list svg {
